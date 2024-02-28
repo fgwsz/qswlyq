@@ -44,4 +44,4 @@ if __name__=="__main__":
     document.save(get_file_path())
     if os.path.exists(image_path):
         os.remove(image_path)
-    print(f"{get_file_path()} table[1] index[{cell_row}] 添加图片成功!")
+    print(f"{get_file_path()} table[1] index[{cell_row-1}] 添加图片成功!")
